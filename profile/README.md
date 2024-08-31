@@ -19,10 +19,10 @@ SQL is a declarative language for reading and manipulating data in tables in SQL
 
 But in data warehouses, a table is a leaky abstraction. Users don't care about tables; tables are a means to an end. They want the data, and the table is a detail. Tables will be replicated; aggregated; cached - and the user spends all their time on the container, not the product.
 
-::: tip
-SQL is a language for getting data out of tables in a databaase. Trilogy is a language for getting/transforming data in a [warehouse/lake/mart], with all the evolution, deprecation, and change that implies. The
-tables will change, but your query doesn't need to.
-:::
+> [!TIP]
+> SQL is a language for interacting with data in tables in a database. Trilogy is a language for interacting with data in a [warehouse/lake/mart], with all the evolution, deprecation, and change that implies. The
+> tables will change, but your query doesn't need to.
+
 
 ## Trilogy puts the answers first
 
@@ -99,10 +99,9 @@ The example above cheats a little - the statement `import concepts.sales as sale
 
 As a semantic layer, Trilogy requires some up-front binding to the database before the first query can be run.  The cost to model the data is incurred infrequently, and then the savings are amortized over every single user and query.
 
-:::tip
-Models can be defined, extended and bound to a table in-line; you don't need a separate file/definition to get started.
+> [!TIP]
+> Models can be defined, extended and bound to a table in-line; you don't need a separate file/definition to get started.
 Unlike other semantic layers, Trilogy supports - and encourages - adhoc extension and iteration. 
-:::
 
 Read me in the [concepts and references](/concepts) section to learn how Trilogy works under the hood, and the nuances of query design and setup.
 
