@@ -1,4 +1,4 @@
-# Welcome - at Trilogy, we're working on open-source, better SQL
+# Welcome to Trilogy, an experiment on open-source, better SQL
 
 Our primary offering is Trilogy, a SQL syntax refresh for the modern data stack, and supporting integrations.
 
