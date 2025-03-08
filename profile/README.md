@@ -4,7 +4,7 @@ The Trilogy ecosystem is built on Trilogy, a SQL syntax refresh for the modern d
 
 - pytrilogy - the core Trilogy implementation, a python package + CLI
 - pytrilogy-nlp - a trilogy/natural language interface
-- trilogy-studio - an electron IDE for directly running trilogy queries, including NLP
+- trilogy-studio-core - an online IDE for directly running trilogy queries
 - pytrilogy-t[ransform] - a DBT integration
 - trilogy-vscode - a vscode extension to support seamless development. 
 
