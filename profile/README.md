@@ -1,4 +1,4 @@
-# Welcome to Trilogy, an experiment on open-source, better SQL
+# Welcome to Trilogy, an experiment in better SQL
 
 The Trilogy ecosystem is built on Trilogy, a SQL syntax refresh for the modern data stack, and supporting integrations to support scheduling, analytics, and interactive development.
 
@@ -6,7 +6,15 @@ The Trilogy ecosystem is built on Trilogy, a SQL syntax refresh for the modern d
 - pytrilogy-nlp - a trilogy/natural language interface
 - trilogy-studio-core - an online IDE for directly running trilogy queries
 - pytrilogy-t[ransform] - a DBT integration
-- trilogy-vscode - a vscode extension to support seamless development. 
+- trilogy-vscode - a vscode extension to support seamless development.
+
+## What Trilogy Gives You
+
+- Speed - write faster, with concise, powerful syntax
+- Efficiency - write less SQL, and reuse what you do
+- Fearless refactoring
+- Testability
+- Easy to use for humans and LLMs
 
 ## Why isn't SQL good enough?
 
